@@ -127,7 +127,7 @@ class pySIMlib:
             if (self.debug): print("read: %x" % ord(x))
               
         self.state = True 
-        self.checkCHV()
+        # self.checkCHV()
         return 0
 
 

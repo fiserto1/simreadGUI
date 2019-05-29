@@ -1,9 +1,12 @@
-# simread
+# SIMRead GUI
 
-This is a library for accessing SIM cards from python. Eventually, it should
-be possible to at least replicate the functionality of 
-[PySimReader](http://www.ladyada.net/make/simreader/download.html) 
-using this library.
+This application allows to read data from the SIM card. Basically, it is a GUI extension of library [simread](https://github.com/polz113/simread) which was implemented by FRI student.
 
-The first version of this library was written by Peter Kragelj as part of
-a digital forensics class assignment at [FRI](http://www.fri.uni-lj.si).
+Features: 
+* Read SIM info
+* Change PIN
+* Enable/Disable PIN
+* Read contacts
+* Read messages
+
+This project was an assignment for Digital Forensics course at [FRI](http://www.fri.uni-lj.si).
